@@ -243,7 +243,7 @@ public abstract class ItemSwapperSharedMod {
     }
 
     public boolean isModDisabled() {
-        return this.modDisabled;
+        return false;
     }
 
     private void acceptBypassCallback(boolean accepted) {
